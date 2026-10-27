@@ -495,7 +495,6 @@ form.addEventListener("submit", (e) => {
 
 $("#langToggle").addEventListener("click", () => setLang(lang === "ar" ? "en" : "ar"));
 
-$("#waFloat").href = whatsappUrl("");
 $("#year").textContent = new Date().getFullYear();
 lang = initialLang();
 render();
